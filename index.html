@@ -8,7 +8,10 @@
     <meta name="author" content="Agave Azteca Mexican Bar & Grill">
      <link rel="icon" type="image/png" href="assets/img/logo.png">
     <title>Agave Azteca Mexican Bar & Grill</title>
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -34,7 +37,10 @@
     <main>
        <section class="hero">
   <video class="hero-video" autoplay muted loop playsinline>
+
     <source src="assets/videos/agaveprincipal.mp4" type="video/mp4">
+    <source src="./assets/videos/toma.mp4" type="video/mp4">
+
     Tu navegador no soporta el elemento de video.
   </video>
 
@@ -56,6 +62,7 @@
                 <div class="grid-container">
                     <div class="features-grid">
 
+
     <a href="menu.html" class="feature-item" style="background-image: url('assets/img/menu.jpg');">
         <span>Our Menus</span>
     </a>
@@ -73,6 +80,8 @@
     </a>
 
 </div>
+
+
                     <div class="reservation-form">
                         <h3>Reservation</h3>
                         <p>Book your spot for authentic flavors and great vibes.</p>
@@ -97,21 +106,30 @@
         <div class="carousel-track">
             <div class="carousel-slide">
                 <video class="carousel-video" autoplay muted loop playsinline>
+
                     <source src="assets/videos/cateringagave.mp4" type="video/mp4">
+
+                    <source src="./assets/videos/toma.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </video>
                 <div class="shortcut-overlay"></div>
             </div>
             <div class="carousel-slide">
                 <video class="carousel-video" autoplay muted loop playsinline>
+
                     <source src="assets/videos/cateringagave2.mp4" type="video/mp4">
+                    <source src="./assets/videos/toma2.mp4" type="video/mp4">
+
                     Tu navegador no soporta el elemento de video.
                 </video>
                 <div class="shortcut-overlay"></div>
             </div>
             <div class="carousel-slide">
                 <video class="carousel-video" autoplay muted loop playsinline>
+
                     <source src="assets/videos/cateringagave3.mp4" type="video/mp4">
+
+                    <source src="./assets/videos/toma3.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </video>
                 <div class="shortcut-overlay"></div>
@@ -163,14 +181,18 @@
         <div class="gallery-container">
             <div class="gallery-track">
                 <div class="gallery-item">
+
                     <img src="assets/img/event.jpg" alt="Restaurant interior">
+                    <img src="./assets/img/event.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
                     </div>
                 </div>
                 <div class="gallery-item">
+
                     <img src="assets/img/event1.jpg" alt="Restaurant interior">
+                    <img src="./assets/img/event1.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
@@ -178,20 +200,26 @@
                 </div>
                 <div class="gallery-item">
                     <img src="assets/img/event2.jpg" alt="Restaurant interior">
+
+                    <img src="./assets/img/event2.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
                     </div>
                 </div>
                 <div class="gallery-item">
+
                     <img src="assets/img/event3.jpg" alt="Restaurant interior">
+                    <img src="./assets/img/event3.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
                     </div>
                 </div>
                 <div class="gallery-item">
+
                     <img src="assets/img/event4.jpg" alt="Restaurant interior">
+                    <img src="./assets/img/event4.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
@@ -199,6 +227,7 @@
                 </div>
                 <div class="gallery-item">
                     <img src="assets/img/event5.jpg" alt="Restaurant interior">
+                    <img src="./assets/img/event5.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
@@ -206,6 +235,7 @@
                 </div>
                     <div class="gallery-item">
                     <img src="assets/img/event6.jpg" alt="Restaurant interior">
+                    <img src="./assets/img/event6.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
@@ -213,6 +243,7 @@
                 </div>
                     <div class="gallery-item">
                     <img src="assets/img/event7.jpg" alt="Restaurant interior">
+                    <img src="./assets/img/event7.jpg" alt="Restaurant interior">
                     <div class="gallery-overlay">
                         <h3>Shared Moments</h3>
                         <p>Celebrate your special occasions with us</p>
@@ -473,6 +504,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             await video.play();
             console.log('Video reproduciéndose correctamente');
+            console.log('🎥 Video reproduciéndose correctamente');
         } catch (error) {
             console.log('Error al reproducir el video:', error);
             const playOnInteraction = () => {
