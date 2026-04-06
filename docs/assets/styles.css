@@ -3,7 +3,7 @@
     --color-yellow: #f5b942;
     --color-dark-bg: #1a1a1a;
     --color-dark-pattern: #2a1a13;
-    --color-light-bg: #fffaf0; /* Crema para el formulario */
+    --color-light-bg: #fffaf0; 
     --color-light-text: #ffffff;
     --color-dark-text: #333333;
     --font-heading: 'Playfair Display', serif;
@@ -20,9 +20,10 @@ body {
 
 .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-/* ================== ENCABEZADO Y NAVEGACIÓN (Reutilizado) ================== */
+
+
 .main-header {
-    background: transparent; /* El fondo lo da el hero */
+    background: transparent; 
     padding: 1rem 0;
     position: absolute;
     width: 100%;
@@ -42,7 +43,6 @@ body {
 
 /* ================== SECCIÓN DE TÍTULO (HERO) ================== */
 .hero-contact {
-    /* TODO: Reemplaza con la imagen de fondo del hero */
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-background.jpg') no-repeat center center/cover;
     padding: 180px 0 80px 0;
     text-align: center;
@@ -56,7 +56,6 @@ body {
 /* ================== CONTENIDO PRINCIPAL DE CONTACTO ================== */
 .contact-main-content {
     padding: 80px 0;
-    /* TODO: Reemplaza con la imagen del patrón de fondo */
     background-image: url('images/pattern.png');
     background-color: var(--color-dark-pattern);
 }
@@ -97,7 +96,7 @@ body {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: #E53935; /* Color de ejemplo */
+    background-color: #E53935;
     color: white;
     text-align: center;
     line-height: 40px;
@@ -129,7 +128,7 @@ body {
 }
 .message-form h3 {
     font-family: var(--font-heading);
-    color: #c84e27; /* Naranja/Rojo del diseño original */
+    color: #c84e27;
     margin-bottom: 10px;
 }
 .message-form p {
